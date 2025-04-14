@@ -21,7 +21,7 @@ Open your terminal and run the following command to start the Minikube cluster:
 minikube start
 ```
 <p align="center">
-  <img align="center" src="D:\Cluser-kubectl\images\minikube_start.png" width="fit">
+  <img align="center" src="D:\Cluser-kubectl\images\minikube_start.png" width="100%">
 </p>
 
 ### Step 2: Deploy the Application
