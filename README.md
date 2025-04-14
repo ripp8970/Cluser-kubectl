@@ -75,3 +75,15 @@ Open the given link in your browser, a page will open:
 <p align="center">
   <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/6f27faf8ed1df0e2e03ac5091410341b8d4eade6/images/deploy.png" width="50%">
 </p>
+
+Finally, a cluser was build and deployed locally using Minicube.
+
+### Step 7: Cleaning up
+To stop and delete the following Minikube cluser, run the following command:
+```bash
+minikube stop
+minikube delete
+```
+<p align="center">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/f33bd1e9770b63945fcb7f19f3a9ce3cc5658c18/images/stop.png" width="50%">
+</p>
