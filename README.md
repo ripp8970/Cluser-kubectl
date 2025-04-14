@@ -20,6 +20,7 @@ Open your terminal and run the following command to start the Minikube cluster:
 ```bash
 minikube start
 ```
+[Image]
 (D:\Cluser-kubectl\images\apply.png)
 
 ### Step 2: Deploy the Application
