@@ -31,7 +31,7 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 <p align="center">
-  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/apply.png" width="100%">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/apply.png" width="50%">
 </p>
 
 ### Step 3: Verify the deployment
@@ -40,7 +40,7 @@ Check the status of your pods:
 kubectl get pods
 ```
 <p align="center">
-  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/pods.png" width="100%">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/pods.png" width="50%">
 </p>
 
 ### Step 4: Scale Deployments
@@ -69,4 +69,9 @@ minikube service nginx-service --url
 ```
 <p align="center">
   <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/url.png" width="50%">
+</p>
+
+Open the given link in your browser, a page will open:
+<p align="center">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/6f27faf8ed1df0e2e03ac5091410341b8d4eade6/images/deploy.png" width="50%">
 </p>
