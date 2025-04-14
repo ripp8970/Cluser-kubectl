@@ -48,8 +48,9 @@ For detailed view:
 kubectl get pods -o wide
 ```
 <p align="center">
-  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/e83e0ebad566c4798b53fd71a085644d750c5369/images/pods-detailed.png" width="50%">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/e83e0ebad566c4798b53fd71a085644d750c5369/images/pods-detailed.png" width="100%">
 </p>
+
 ### Step 4: Scale Deployments
 To scale the deployment to 3 replicas, run:
 ```bash
@@ -92,6 +93,12 @@ minikube ssh
 curl http://<IP adrees>:80
 ```
 
+OR
+
+On local machine by the command:
+```bash
+kubectl port-forward pod/nginx-deployment-96b9d695-24fgn 8005:80
+```
 Finally, a cluser was build and deployed locally using Minicube.
 
 ### Step 7: Cleaning up
