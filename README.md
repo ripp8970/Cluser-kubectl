@@ -42,6 +42,10 @@ kubectl get pods
 <p align="center">
   <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/pods.png" width="50%">
 </p>
+For detailed view:
+```bash
+kubectl get pods -o wide
+```
 
 ### Step 4: Scale Deployments
 To scale the deployment to 3 replicas, run:
@@ -75,6 +79,15 @@ Open the given link in your browser, a page will open:
 <p align="center">
   <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/6f27faf8ed1df0e2e03ac5091410341b8d4eade6/images/deploy.png" width="50%">
 </p>
+
+## Note:
+We can also access the it locally via:
+```bash
+minikube ssh
+```
+```bash
+curl http://<IP adrees>:80
+```
 
 Finally, a cluser was build and deployed locally using Minicube.
 
