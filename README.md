@@ -20,8 +20,9 @@ Open your terminal and run the following command to start the Minikube cluster:
 ```bash
 minikube start
 ```
-[Image]
-(D:\Cluser-kubectl\images\apply.png)
+<p align="center">
+  <img align="center" src="D:\Cluser-kubectl\images\minikube_start.png" width="fit">
+</p>
 
 ### Step 2: Deploy the Application
 Since, the .yaml files(aplication.yaml & service.yaml) are already created. Run the following commands to apply the YAML files:
