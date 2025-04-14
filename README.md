@@ -42,11 +42,14 @@ kubectl get pods
 <p align="center">
   <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/pods.png" width="50%">
 </p>
+
 For detailed view:
 ```bash
 kubectl get pods -o wide
 ```
-
+<p align="center">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/e83e0ebad566c4798b53fd71a085644d750c5369/images/pods-detailed.png" width="50%">
+</p>
 ### Step 4: Scale Deployments
 To scale the deployment to 3 replicas, run:
 ```bash
