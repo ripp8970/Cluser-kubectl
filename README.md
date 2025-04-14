@@ -21,7 +21,7 @@ Open your terminal and run the following command to start the Minikube cluster:
 minikube start
 ```
 <p align="center">
-  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/e103afdafd8e2edada4c343a807e557adc600ba4/images/minikube_start.png" width="200%">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/e103afdafd8e2edada4c343a807e557adc600ba4/images/minikube_start.png" width="100%">
 </p>
 
 ### Step 2: Deploy the Application
@@ -30,12 +30,19 @@ Since, the .yaml files(aplication.yaml & service.yaml) are already created. Run 
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
+<p align="center">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/apply.png" width="100%">
+</p>
 
 ### Step 3: Verify the deployment
 Check the status of your pods:
 ```bash
 kubectl get pods
 ```
+<p align="center">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/pods.png" width="100%">
+</p>
+
 ### Step 4: Scale Deployments
 To scale the deployment to 3 replicas, run:
 ```bash
@@ -51,9 +58,15 @@ To get detailed information about the deployment, run:
 ```bash
 kubectl describe deployment/nginx-deployment
 ```
+<p align="center">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/describe.png" width="50%">
+</p>
 
 ### Step 6: Access the Application
 To access the Nginx application, run:
 ```bash
 minikube service nginx-service --url
 ```
+<p align="center">
+  <img align="center" src="https://github.com/ripp8970/Cluser-kubectl/blob/c607c7fba57250d3374ed91feb4b33d2987a9380/images/url.png" width="50%">
+</p>
