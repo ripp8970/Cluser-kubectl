@@ -97,7 +97,7 @@ OR
 
 On local machine by the command:
 ```bash
-kubectl port-forward pod/nginx-deployment-96b9d695-24fgn 8005:80
+kubectl port-forward pod/<pod name>(nginx-deployment-96b9d695-24fgn) 8005:80
 ```
 Finally, a cluser was build and deployed locally using Minicube.
 
